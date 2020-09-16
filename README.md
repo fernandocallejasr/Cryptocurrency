@@ -6,15 +6,15 @@ This project is a blockchain application in which you can conduct transactions u
 ![Image 2](/images/frontend-sc-2.png)
 
 
-The transaction pool containing multiple transactions can be stored safely and publicly in blocks, delivered to every peer in the blockchain network using the chain. 
+The transaction pool that contains multiple transactions, can be stored safely and publicly in blocks, delivered to every peer in the blockchain network using the shared chain. 
 
 The backend is written in python. To be part of the official blockchain, every block must conform to the rules of the blockchain technology, those are:
-![Image 3](/images/frontend-sc-3.png)
+
 1. The last-hash property must equal the value of the hash property given in the prior block.
 2. The given hash must be able to be generated given the information contained in the block, that means that every peer in the blockchain network can validate the authenticity of the chain. This creates a layer of security given that the change of a single character in the information stored, will create a completely different hash.
 3. The start of the hash must contain the same number of "0" of the difficulty property in the block.
-
-The blockchain is generated when one peer mines a block, and to promote that activity, which requires a proof of work, that can be translated into computational work, the user receives some credit everytime they are able to mine a block into the blockchain.
+![Image 3](/images/frontend-sc-3.png)
+The blockchain is generated when one peer mines a block, and to promote that activity, which requires a proof of work, that can be translated into computational work, the user receives some credit every time they are able to mine a block into the blockchain.
 
 ![Image 4](/images/frontend-sc-4.png)
 
